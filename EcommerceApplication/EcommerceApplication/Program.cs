@@ -13,7 +13,7 @@ if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
 }
-//add line
+//add line to enable swagger in production
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
